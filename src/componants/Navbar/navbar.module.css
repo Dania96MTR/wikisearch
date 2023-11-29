@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+    box-shadow: 0px 0px 2px 2px #10101031;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+.link , .linkFav{
+    text-decoration: none;
+    border: none !important;
+}
+.link{
+    color: #000000fa;
+    font-size: 20px;
+    font-weight: 600;
+}
+.linkFav{
+    color: rgb(0, 119, 255);
+}
